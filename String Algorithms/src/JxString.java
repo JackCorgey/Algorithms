@@ -3,7 +3,6 @@ import java.util.Arrays;
 
 public class JxString {
 
-	
 	public static ArrayList<Integer> boyer_moore_find(String _needle, String _haystack) {
 		char[] needle = _needle.toCharArray(),
 			   haystack = _haystack.toCharArray();	
@@ -12,12 +11,10 @@ public class JxString {
 		ArrayList<Integer> matched = new ArrayList<Integer>();
 		while( (needle.length+in) <= haystack.length ) {
 			int jmp = isMatch(needle, haystack, in);
-			if(jmp == -1) {
-				matched.add(in);
-				++in;
-			} else {
+			if(jmp == -1)
+				matched.add(in++);
+			else 
 				in += jmp;
-			}
 		}
 		
 		return matched;

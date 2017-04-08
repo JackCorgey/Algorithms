@@ -21,12 +21,12 @@ public class JxString {
 				jmpIndex.put(needle.charAt(i), needle.length()-1 - i);
 		}
 		
-		ArrayList<Integer> boyer_moore_search() {	
-			int in = 0;
+		ArrayList<Integer> findAll() {	
 			ArrayList<Integer> matched = new ArrayList<Integer>();
+			
+			int in = 0;
 			while( (needle.length()+in) <= haystack.length() ) {
 				int jmp = getJmp(in);
-				System.out.println(jmp);
 				if(jmp == -1)
 					matched.add(in++);
 				else 
@@ -37,30 +37,26 @@ public class JxString {
 		}
 		
 		int getJmp(int in) {
-			int match = needle.length()-1;
-			while(match >= 0) {
-				if(needle.charAt(match) != haystack.charAt(in+match))
+			int jmp = needle.length()-1;
+			while(jmp >= 0) {
+				if( needle.charAt(jmp) != haystack.charAt(in+jmp) )
 					break;
-				--match;
+				--jmp;
 			}
 			
-			if(match == -1)
-				return match;
+			if(jmp == -1)
+				return jmp;
 			
 			char anchor = haystack.charAt(in + needle.length()-1);
 			return ( jmpIndex.containsKey(anchor) ) ? jmpIndex.get(anchor) : needle.length();
 			
 		}
 		
-		String test() {
-			return "test";
-		}
-		
 	}
 	
 	public static ArrayList<Integer> findAll(String needle, String haystack) {
 		Boore_Moore bm = new Boore_Moore(needle, haystack);
-		return bm.boyer_moore_search();
+		return bm.findAll();
 	}
 
 	

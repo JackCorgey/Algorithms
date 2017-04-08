@@ -5,10 +5,11 @@ public class test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String needle = "pattern";
-		String haystack = "patternlatternpatternpatternlatternpatternlattern";
+		String needle = "aaaaaaaaaaaaaaaaaa";
+		//String haystack = "patternlatternpatternpatternlatternpatternlattern";
+		String haystack = "aaaaaaaaaa";
 		
-		ArrayList<Integer> matched = JxString.boyer_moore_find(needle, haystack);
+		ArrayList<Integer> matched = JxString.simple_search(needle, haystack);
 		System.out.println(matched);
 		
 	}

@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class JxString {
 
-	public static ArrayList<Integer> boyer_moore_find(String _needle, String _haystack) {
+	public static ArrayList<Integer> simple_search(String _needle, String _haystack) {
 		char[] needle = _needle.toCharArray(),
 			   haystack = _haystack.toCharArray();	
 		

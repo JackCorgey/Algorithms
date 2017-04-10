@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class Boore_Moore {
+public class Boyer_Moore {
 
 		public static ArrayList<Integer> findAll(String needle, String haystack) {	
 			ArrayList<Integer> matched = new ArrayList<Integer>();

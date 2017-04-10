@@ -6,9 +6,9 @@ public class test {
 		// TODO Auto-generated method stub
 
 		String needle = "pattern";
-		String haystack = "zzzzzzzzzzzzzzzzzzzzzttttpatternpattern";
+		String haystack = "patternabcdefghijklmnopatternpattern";
 		
-		System.out.println( JxString.findAll(needle, haystack) );
+		System.out.println( Boore_Moore.findAll(needle, haystack) );
 		
 		//ArrayList<Integer> matched = JxString.simple_search(needle, haystack);
 		//System.out.println(matched);

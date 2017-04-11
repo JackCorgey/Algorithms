@@ -16,9 +16,9 @@ public class Boyer_Moore {
 					matched.add(++in);
 					in = ++anchor;
 				} else if ( needle.charAt(nLen-1 - diff) != haystack.charAt(in) ) {
-					char c = haystack.charAt(anchor);
-					int add = ( jumpDict.containsKey(c) ) ? jumpDict.get(c) : needle.length();
-					in = anchor = anchor + add;
+					Integer leap = jumpDict.get( haystack.charAt(anchor) );
+					if(leap == null) leap = nLen;
+					in = anchor = anchor + leap;
 				} else {
 					--in;
 				}	

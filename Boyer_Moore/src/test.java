@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class test {
 
@@ -8,10 +9,15 @@ public class test {
 		String needle = "pattern";
 		String haystack = "patternabcdefghijklmnopatternpattern";
 		
-		System.out.println( Boore_Moore.findAll(needle, haystack) );
+		System.out.println( Boyer_Moore.findAll(needle, haystack) );
 		
 		//ArrayList<Integer> matched = JxString.simple_search(needle, haystack);
 		//System.out.println(matched);
+		
+		HashMap<Character,Integer> t = new HashMap<Character,Integer>();
+		t.put('a', 10);
+		t.put(null, 11);
+		
 		
 	}
 

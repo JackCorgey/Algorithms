@@ -5,8 +5,7 @@ import math
 
 class popo:
     
-    def __init__(self, tag, content):
-        self.tag = tag
+    def __init__(self, content):
         self.content = content
         
 class distribution_spread:
@@ -45,12 +44,18 @@ class distribution_spread:
             yield randint(beg, end) - 1 #random index
 
 objs = []
-alpha = ['a','b','c','a','a','a']
+alpha = ['a','b']
+
+
+
 for num in range(100):
     al = alpha[randint(0, len(alpha)-1)]
-    objs.append(popo(al, al))
+    print(al)
+    objs.append(popo(al))
 
-a = distribution_spread(objs, 'tag').simple_spread()
+print('--------------------------------')
+
+a = distribution_spread(objs, 'content').simple_spread()
 
 for idx in a:
-    print(idx.tag)
+    print(idx.content)

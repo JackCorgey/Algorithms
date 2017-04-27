@@ -6,11 +6,11 @@
 
 #### Take for instance the following sequence of characters known as the haystach
 
->> rute forcebrute forcbrute force
+> rute forcebrute forcbrute force
 
 #### and youre looking for the needle
 
->> brute force
+> brute force
 
 ##### The brute force approach would be to line the haystack and needle where the first index of the characters line up
 
@@ -18,5 +18,10 @@
 ###### brute force
 
 ##### and move the needle up one character until a match is found
-+++++ sdcsdc
+>rute forcebrute forcbrute force
+>brute force
+>>brute force
+>>>brute force
+>>>>brute force
+>>>>>brute force
 ##### A match was found at character 20, assuming we start at 0.

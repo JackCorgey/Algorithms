@@ -18,9 +18,9 @@
 ###### brute force
 
 ##### and move the needle up one character until a match is found
- ``rute forcebrute forcbrute force``
- `` brute force``
- ``  brute force``
+ rute forcebrute forcbrute force
+ >> brute force
+ >>  brute force
  ``   brute force``
  ``    brute force``
  ``     brute force``

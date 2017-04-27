@@ -18,5 +18,5 @@
 ###### brute force
 
 ##### and move the needle up one character until a match is found
-+ ## sdcsdc
++++++ sdcsdc
 ##### A match was found at character 20, assuming we start at 0.

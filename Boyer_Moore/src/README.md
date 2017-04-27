@@ -26,5 +26,5 @@ brute force<br>
    brute force<br>
     brute force<br>
     ... many more times<br>
-                                  brute force *match* <br>
+                                  <p style="color: green">brute force *match* </p>
 ##### A match was found at character 20, assuming we start at 0.

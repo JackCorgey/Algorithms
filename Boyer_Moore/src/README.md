@@ -19,11 +19,12 @@
 
 ##### and move the needle up one character until a match is found
 
-rute forcebrute forcbrute force
-
+rute forcebrute forcbrute force<br>
 brute force<br>
  brute force<br>
   brute force<br>
    brute force<br>
     brute force<br>
+    ... many more times<br>
+                   brute force *match* <br>
 ##### A match was found at character 20, assuming we start at 0.

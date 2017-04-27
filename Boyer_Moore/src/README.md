@@ -18,10 +18,12 @@
 ###### brute force
 
 ##### and move the needle up one character until a match is found
+
 rute forcebrute forcbrute force
-brute force
- brute force
-  brute force
-   brute force
-    brute force
+
+brute force<br>
+ brute force<br>
+  brute force<br>
+   brute force<br>
+    brute force<br>
 ##### A match was found at character 20, assuming we start at 0.

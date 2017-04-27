@@ -2,7 +2,7 @@
 
 ### Brief description
 
-##### If you're looking to find a string buried in a mountain of text, the Boore-Moore algorithm is your shovel.
+#### If you're looking to find a string buried in a mountain of text, the Boore-Moore algorithm is your shovel.
 
 #### But let's start out with something simpler, something brute forced
 #### Take for instance the following string, the *haystack*.

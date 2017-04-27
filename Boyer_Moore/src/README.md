@@ -14,16 +14,16 @@
 
 ##### The brute force approach would be to line the haystack and needle where the first index of the characters line up
 
-rute forcebrute forcbrute force
-brute force
+###### rute forcebrute forcbrute force
+###### brute force
 
 ##### and move the needle up one character until a match is found
-rute forcebrute forcbrute force
-brute force
- brute force
-  brute force
-   brute force
-    brute force
-	  ... many more times
-				    brute force (match)
+###### rute forcebrute forcbrute force
+###### brute force
+ ###### brute force
+  ###### brute force
+   ###### brute force
+    ###### brute force
+	  ###### ... many more times
+	            ###### brute force (match)
 ##### A match was found at character 20, assuming we start at 0.

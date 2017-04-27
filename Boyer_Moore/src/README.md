@@ -6,11 +6,11 @@
 
 #### Take for instance the following sequence of characters known as the haystach
 
-###### rute forcebrute forcbrute force
+>> rute forcebrute forcbrute force
 
 #### and youre looking for the needle
 
-###### brute force
+>> brute force
 
 ##### The brute force approach would be to line the haystack and needle where the first index of the characters line up
 

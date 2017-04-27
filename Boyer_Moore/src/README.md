@@ -4,11 +4,11 @@
 
 ##### If you're looking to find a string buried in a mountain of text, the Boore-Moore algorithm is your shovel.
 
-#### Take for instance the following sequence of characters known as the haystach
+#### Take for instance the following string which we'll call the (*haystack*)
 
 > rute forcebrute forcbrute force
 
-#### and youre looking for the needle
+#### within the haystack we want to search for a smaller string (*needle*)
 
 > brute force
 

@@ -4,7 +4,7 @@
 
 ##### If you're looking to find a string buried in a mountain of text, the Boore-Moore algorithm is your shovel.
 
-#### But let's start out with something simpler, brute force methodology
+#### But let's start out with something simpler, something brute forced
 #### Take for instance the following string, the *haystack*.
 
 > rute forcebrute forcbrute force
@@ -31,4 +31,3 @@ brute force<br>
 ##### A match was found at character 20, assuming we start at 0.
 
 
-# To Be Continued

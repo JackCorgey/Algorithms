@@ -7,6 +7,6 @@ For each algorithm, the source of the explanation will be available along with d
 - Distribution Spread
 
 
-### Need to do algorithms 
+### Need To Do 
 - Dijkstra's algorithm 
 - Need more ...
